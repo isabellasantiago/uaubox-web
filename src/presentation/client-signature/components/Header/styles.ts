@@ -2,7 +2,8 @@ import styled from 'styled-components'
 
 
 export const Container = styled.div`
-margin: 0;`
+    margin-bottom: 20px;
+`
 
 export const HeaderContainer = styled.div`
     display: flex;
@@ -29,16 +30,19 @@ export const NavBar = styled.nav`
     display: flex;
     gap: 30px;
 
-    > a {
+    > button {
         text-decoration: none;
         color: rgba(0,0,0,1);
-        font: 12px 600 'Montserrat', sans-serif;
+        font: 14px 'Montserrat', sans-serif;
+        font-weight: bold;
         line-height: 22px;
 
         display: flex;
         align-items: center;
         gap: 10px;
-        
+        border: none;
+        background: none;
+        cursor: pointer;
     }
     
 `

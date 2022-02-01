@@ -1,7 +1,11 @@
 import styled from 'styled-components'
 
 
-export const InputContainer = styled.div`
+interface InputProps{
+    widthSize: string
+}
+
+export const InputContainer = styled.div<InputProps>`
     display: flex;
     flex-direction: column;
 
@@ -10,11 +14,11 @@ export const InputContainer = styled.div`
         font: 14px 'Montserrat';
         line-height: 18px;
         color: #000;
-        margin-bottom: 5px;
-        margin-left: 5px;
+        margin-bottom: '5px';
+        margin-left: '5px';
     }
-    input{
-        width: 280px;
+    input {
+        width:${props => props.widthSize};
         height: 40px;
 
         font: 14px 'Montserrat';
@@ -26,7 +30,5 @@ export const InputContainer = styled.div`
         border-radius: 8px;
         padding: 0px 5px;
     }
-}
-
 
 `

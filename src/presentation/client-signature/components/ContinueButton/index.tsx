@@ -7,5 +7,5 @@ interface ContinueProps{
 
 
 export const ContinueButton = ({onClick, content}: ContinueProps) => {
-return <Button>{content !== undefined ? content : "CONTINUAR"}</Button>
+return <Button onClick={onClick}>{content !== undefined ? content : "CONTINUAR"}</Button>
 }
