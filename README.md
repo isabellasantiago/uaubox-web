@@ -1,8 +1,8 @@
-# Getting Started with Create React App
+# Uaubox Test
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was build to a job opportunity (Front end JR) on company Uaubox in Brazil.
 
-## Available Scripts
+## To run the project
 
 In the project directory, you can run:
 
@@ -11,9 +11,12 @@ In the project directory, you can run:
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
 ## Figma
 
-You can see the prototype on figma [Figma](https://www.figma.com/file/62QiHFXTMMVoZHWxvL3Yju/Uaubox?node-id=0%3A1)
+You can see the prototype on [Figma](https://www.figma.com/file/62QiHFXTMMVoZHWxvL3Yju/Uaubox?node-id=0%3A1)
+
+## Observations
+
+I wasn't able to finish it properly because I couldn't have enough days to do that.
+Somethings are not working properly.
+It has no connection with a server, API or database. (Couldn't prepare that either)
