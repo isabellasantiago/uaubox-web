@@ -14,6 +14,7 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-hook-form": "^7.25.3",
+    "react-input-mask": "^2.0.4",
     "react-scripts": "5.0.0",
     "styled-components": "^5.3.3",
     "typescript": "^4.4.2",
@@ -25,10 +26,46 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
   "eslintConfig": {
     "extends": [
-      "react-app"
-    ]
+      "react-app",
+      "plugin:react/recommended",
+      "eslint:recommended",
+      "prettier"
+    ],
+    "parserOptions": {
+      "ecmaVersion": 2021,
+      "sourceType": "module",
+      "ecmaFeatures": {
+        "jsx": true
+      }
+    },
+    "rules": {
+      "no-unused-vars": "off",
+      "react/prop-types": "off",
+      "react/jsx-uses-react": "error",
+      "react/jsx-uses-vars": "error",
+      "react/react-in-jsx-scope": "off",
+      "react/self-closing-comp": "warn"   
+    },
+
+    "plugins": [
+      "react",
+      "import",
+      "jsx-a11y"
+    ],
+    "env": {
+      "es6": true,
+      "browser": true,
+      "jest": true,
+      "node": true
+    },
+    "settings": {
+      "react": {
+        "version": "detect"
+      }
+    }
   },
   "browserslist": {
     "production": [
@@ -42,8 +79,10 @@
       "last 1 safari version"
     ]
   },
+  "format": "prettier --write \"src/**/*.{js,jsx}\"",
   "devDependencies": {
     "@lukemorales/eslint-config": "1.0.16",
+    "@types/react-input-mask": "^3.0.1",
     "@types/styled-components": "^5.1.21",
     "@typescript-eslint/eslint-plugin": "4.15.2",
     "@typescript-eslint/parser": "4.15.2",
@@ -52,18 +91,18 @@
     "eslint-config-prettier": "8.1.0",
     "eslint-import-resolver-typescript": "2.4.0",
     "eslint-plugin-10x": "1.5.0",
-    "eslint-plugin-import": "2.22.1",
+    "eslint-plugin-import": "^2.25.4",
     "eslint-plugin-import-helpers": "1.1.0",
     "eslint-plugin-jest": "24.1.5",
     "eslint-plugin-jest-dom": "3.6.5",
     "eslint-plugin-jest-formatting": "2.0.1",
-    "eslint-plugin-jsx-a11y": "6.4.1",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
     "eslint-plugin-prettier": "3.3.1",
     "eslint-plugin-radar": "0.2.1",
-    "eslint-plugin-react": "7.22.0",
+    "eslint-plugin-react": "^7.28.0",
     "eslint-plugin-react-hooks": "4.2.0",
     "eslint-plugin-react-redux": "3.3.2",
     "eslint-plugin-testing-library": "3.10.1",
-    "prettier": "2.2.1"
+    "prettier": "^2.5.1"
   }
 }

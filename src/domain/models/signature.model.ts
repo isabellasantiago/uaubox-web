@@ -10,12 +10,12 @@ export interface SignatureModel{
     address?: {
         street?: string
         number?:string
-        neighbourhood?: string
+        district?: string
         city?: string
         state?: string
         cep?: string
-        complements?: string
-        references?: string
+        complement?: string
+        reference?: string
     }
 
     agreedTerms?: boolean
@@ -28,9 +28,8 @@ export interface SignatureModel{
 
     plan?: {
         name?: string
-        value?: number
+        price?: number
         months?: number
-        boxQuantity?: number
     }
 
     paymentInfos?: {
