@@ -14,3 +14,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
+## Figma
+
+You can see the prototype on figma [https://www.figma.com/file/62QiHFXTMMVoZHWxvL3Yju/Uaubox?node-id=0%3A1](Figma)
