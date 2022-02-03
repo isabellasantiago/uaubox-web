@@ -16,4 +16,4 @@ You will also see any lint errors in the console.
 
 ## Figma
 
-You can see the prototype on figma [https://www.figma.com/file/62QiHFXTMMVoZHWxvL3Yju/Uaubox?node-id=0%3A1](Figma)
+You can see the prototype on figma [Figma](https://www.figma.com/file/62QiHFXTMMVoZHWxvL3Yju/Uaubox?node-id=0%3A1)
